@@ -46,7 +46,7 @@ body{
     @apply grid justify-center items-center text-center 
   }
 
-  .form-btn{
-    /* @apply mt-15  */
+  .overlay-addbtn{
+    @apply cursor-pointer
   }
 }

@@ -94,7 +94,7 @@ export const useNotes = create((set,get)=>({
       const { userData } = get();
       const response = await axios.put(`${URL}/api/notebook/${id}`, userData);
       set({ currenNote: response.data });
-      toast.success("Successfully added!");
+      toast.success("Successfully edited!");
     } catch (err) {
       toast.error("Something went wrong");
       console.log(err);
