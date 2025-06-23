@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+
+body{
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #101523;
+  color: wheat;
+}
+
+@layer base{
+}
+
+@layer components{
+  .card {
+    /* @apply grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 bg-lime-200  */
+    @apply flex  flex-wrap gap-5 mx-5 justify-center md:justify-start
+  }
+
+  .notes {
+    @apply mt-5 h-max max-h-110 w-88 bg-[#101523] drop-shadow-xl/50 drop-shadow-[#fdfdfd] p-2 rounded-2xl p-3
+  }
+
+  .input-card{
+    @apply  w-full m-auto sm:w-[500px] mt-5 relative mb-5
+  }
+
+  .heading{
+    @apply w-full p-2.5
+  }
+
+  .inputnotes{
+    @apply p-2.5 resize-none
+  }
+
+  .loading{
+    @apply h-screen text-center content-center
+  }
+
+  .edit-page{
+    /* @apply bg-[#181C14]  m-20  w-200  mx-auto h-150 p-5 rounded-2xl drop-shadow-2xl/25 drop-shadow-[#fdfdfd] */
+    @apply bg-[#101523]  mt-20 w-150 sm:w-200  mx-auto h-125 sm:h-150 p-5 rounded-2xl drop-shadow-2xl/25 drop-shadow-[#fdfdfd]
+    
+  }
+
+  .updateform{
+    @apply grid justify-center items-center text-center 
+  }
+
+  .form-btn{
+    /* @apply mt-15  */
+  }
+}
