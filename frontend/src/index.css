@@ -3,7 +3,7 @@
 
 body{
   font-family: "Lexend Deca", sans-serif;
-  background-color: #101523;
+  background-color: #393E46;
   color: wheat;
 }
 
@@ -17,7 +17,7 @@ body{
   }
 
   .notes {
-    @apply mt-5 h-max max-h-110 w-88 bg-[#101523] drop-shadow-xl/50 drop-shadow-[#fdfdfd] p-2 rounded-2xl p-3
+    @apply mt-5 h-max max-h-110 w-88 bg-[#393E46] drop-shadow-xl/50 drop-shadow-[#EEEEEE] p-2 rounded-2xl p-3
   }
 
   .input-card{
@@ -38,7 +38,7 @@ body{
 
   .edit-page{
     /* @apply bg-[#181C14]  m-20  w-200  mx-auto h-150 p-5 rounded-2xl drop-shadow-2xl/25 drop-shadow-[#fdfdfd] */
-    @apply bg-[#101523]  mt-20 w-150 sm:w-200  mx-auto h-125 sm:h-150 p-5 rounded-2xl drop-shadow-2xl/25 drop-shadow-[#fdfdfd]
+    @apply bg-[#222831]  mt-20 w-150 sm:w-200  mx-auto h-125 sm:h-150 p-5 rounded-2xl drop-shadow-2xl/25 drop-shadow-[#EEEEEE]
     
   }
 
