@@ -1,6 +1,6 @@
 # 📝 Notes App
 
-A simple and responsive Note-Taking Web Application built with **React** for the frontend and **Node.js + Express** for the backend, connected to a **MongoDB** database. The app allows users to create, read, update, and delete (CRUD) their notes efficiently with real-time updates and clean UI.
+A simple and responsive Note-Taking Web Application built with **React** for the frontend and **Node.js + Express** for the backend, connected to a **Postgres** database. The app allows users to create, read, update, and delete (CRUD) their notes efficiently with real-time updates and clean UI.
 
 WebApp Link - https://notes-app-8y9g.onrender.com
 ---
@@ -29,7 +29,7 @@ WebApp Link - https://notes-app-8y9g.onrender.com
 **Backend:**
 - Node.js
 - Express.js
-- MongoDB (via Mongoose)
+- Postgres (via Neon)
 
 ---  
 
